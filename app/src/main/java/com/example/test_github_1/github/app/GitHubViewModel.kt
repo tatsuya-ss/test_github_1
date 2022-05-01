@@ -20,6 +20,7 @@ class GitHubViewModel(
             val result = gitHubUseCase.listRepos("tatsuya-ss")
             when (result) {
                 is Result.Success -> {
+                    repos.value = result.result
                     Log.d("tatsuyaDebug", "${result.result}")
                 }
                 is Result.Failure -> {
