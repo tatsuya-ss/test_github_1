@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.test_github_1.github.data.Repo
-import com.example.test_github_1.Result
+import com.example.test_github_1.github.data.Result
 import com.example.test_github_1.github.domain.GitHubUseCase
 import kotlinx.coroutines.launch
 

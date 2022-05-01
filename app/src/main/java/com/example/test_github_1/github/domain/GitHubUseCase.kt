@@ -1,8 +1,8 @@
 package com.example.test_github_1.github.domain
 
-import com.example.test_github_1.GitHubRepositoryImpl
 import com.example.test_github_1.github.data.Repo
-import com.example.test_github_1.Result
+import com.example.test_github_1.github.data.GitHubRepositoryImpl
+import com.example.test_github_1.github.data.Result
 
 
 class GitHubUseCase(
